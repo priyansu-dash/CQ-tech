@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBookShelf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header-->
+    <!--Nav Bar-->
+    <nav>
+        <div class="logo">
+            <h1>MyBookShelf</h1>
+        </div>
+        <ul class="nav_links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+    <!--Main-->
+    <!--Hero Sec-->
+    <section id="home" class="hero">
+        <div class="hero_stuff">
+            <h2>Welcome to MyBookShelf: Your Gateway to Great Reads!</h2>
+            <a href="#featured" class="button">Browse Books</a>
+        </div>
+    </section>
+
+    <!--Featured Sec-->
+    <section id="featured" class="featured_books">
+        <h2>Featured Books</h2>
+        <p>Check out what’s popular this week!</p>
+        <div class="books_list">
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/810ZtibhcCL._AC_UF1000,1000_QL80_.jpg" alt="">
+                <h3>Diary of a wimpy kid- Dog days</h3>
+                <p>Author: Jeff Kinney</p>
+                <p>A captivating story about a teenage boy.</p>
+            </div>
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/81BE7eeKzAL.jpg" alt="Rich Dad Poor Dad">
+                <h3>Rich Dad Poor Dad</h3>
+                <p>Author: Robert Kiyosaki</p>
+                <p>A bestseller on life-lessons.</p>
+            </div>
+            <div class="book">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/kic17rk0-0/book/k/o/j/half-girlfriend-original-imafy4wzbyhnx6xy.jpeg?q=90&crop=false" alt="Half Girlfriend">
+                <h3>Half Girlfriend</h3>
+                <p>Author: Chetan Bhagat</p>
+                <p>A heartwarming tale of love and friendship.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Categories Sec-->
+    <section id="categories" class="categories">
+        <h2>Browse by Genre</h2>
+        <div class="category_list">
+            <div class="item">Fiction</div>
+            <div class="item">Mystery</div>
+            <div class="item">Sci-Fi</div>
+            <div class="item">Romance</div>
+        </div>
+    </section>
+
+    <!--Reviews Sec-->
+    <section id="reviews" class="user_reviews">
+        <h2>What Readers Say</h2>
+        <div class="review_list">
+            <div class="revcard">
+                <h3>John Doe</h3>
+                <p>"This bookstore has an amazing collection. Highly recommended!"</p>
+            </div>
+            <div class="revcard">
+                <h3>Jane Smith</h3>
+                <p>"I found my favorite books here. Great service and selection!"</p>
+            </div>
+        </div>
+        <form class="review_form">
+            <h3>Leave a Review</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your email">
+            <label for="review">Review:</label>
+            <textarea id="review" placeholder="Your review"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="media_links">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </div>
+        <a href="#home" class="back_to_top">Back to Top</a>
+    </footer>
+</body>
+</html>

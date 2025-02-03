@@ -1,0 +1,207 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: black;
+}
+
+/*Nav Bar*/
+nav {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo h1 {
+    margin: 0;
+}
+
+nav .nav_links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .nav_links li {
+    margin: 0 15px;
+}
+
+nav .nav_links a {
+    color: white;
+}
+
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/*Hero*/
+.hero {
+    background: url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero_stuff h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: lightcoral;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: red;
+}
+
+/* Featured Books Section */
+.featured_books {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured_books h2 {
+    margin-bottom: 10px;
+}
+
+.books_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 30%;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Categories Section */
+.categories {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.category_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: lightcoral;
+    color: white;
+}
+
+/* User Reviews Section */
+.user_reviews {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.review_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.revcard {
+    width: 45%;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.review_form {
+    max-width: 500px;
+    margin: 0;
+    text-align: left;
+}
+
+.review_form input, .review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.review_form button {
+    background: lightcoral;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review_form button:hover {
+    background: lightcoral;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .media_links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer .media_links a:hover {
+    color: lightcoral;
+}
+
+.back_to_top {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+.back_to_top:hover {
+    text-decoration: solid underline;
+}
